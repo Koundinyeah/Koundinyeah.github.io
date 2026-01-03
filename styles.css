@@ -1,0 +1,22 @@
+
+    .header{
+      display:flex;
+      background-color: orange;
+      color: white;
+    }
+    .footer{
+      background-color: aqua;
+      color:blue;
+    }
+    body{
+      margin:0px;
+    }
+    .container{
+      margin:0px;
+    }
+    *{
+      margin:0px;
+    }
+    .menu{
+      display:flex;
+    }
