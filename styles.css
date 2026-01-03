@@ -1,33 +1,39 @@
+ .header {
+    padding: 10px;
+     display: flex;
+     justify-content: space-between;
+     background-color: teal;
+     color: white;
+ }
 
-    .header{
-      padding:5px;
-      display:flex;
-      justify-content: space-between;
-      background-color: orange;
-      color: white;
-    }
-    .footer{
-      background-color: aqua;
-      color:blue;
-    }
-    body{
-      margin:0px;
-    }
-    .container{
-      margin:0px;
-    }
-    *{
-      margin:0px;
-    }
-    .menu{
-       display:flex;
-      /*to get into one line */
-    }
-    .menu li{
-      list-style:none;
-      margin:5px;
-    }
-    .menu li a{
-      text-decoration:none;
-      color:white;
-    }
+ .footer {
+     background-color: silver;
+ }
+
+ .container {
+     margin: 0px;
+ }
+
+ * {
+     margin: 0px;
+ }
+
+ .menu {
+     display: flex;
+ }
+
+ .menu li{
+    list-style:none;
+    margin: 5px;
+    
+ }
+ .menu li a{
+    text-decoration: none;
+    color:white;
+ }
+
+ .box{
+    margin: 10px;
+    padding: 10px;
+    border: 1px gray solid;
+ }
