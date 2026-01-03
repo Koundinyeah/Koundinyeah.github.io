@@ -1,6 +1,8 @@
 
     .header{
+      padding:5px;
       display:flex;
+      justify-content: space-between;
       background-color: orange;
       color: white;
     }
@@ -19,4 +21,12 @@
     }
     .menu{
       display:flex;
+    }
+    .menu li{
+      list-style:none;
+      margin:5px;
+    }
+    .menu li a{
+      text-decoration:none;
+      color:white;
     }
