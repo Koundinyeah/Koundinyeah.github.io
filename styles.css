@@ -20,7 +20,8 @@
       margin:0px;
     }
     .menu{
-      display:flex;
+       display:flex;
+      /*to get into one line */
     }
     .menu li{
       list-style:none;
