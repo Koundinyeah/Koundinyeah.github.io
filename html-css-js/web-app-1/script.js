@@ -1,9 +1,19 @@
+const users=[];
 function dispMessage(){
+
+  let email=document.getElementById("txtEmail").value
+  let pass=document.getElementById("txtPass").value
+  let found=users.find((element)=>element.email === email && element.pass === pass);
+  if(found){
+    lblmessage.innerHTML="Welcome";
+  } else {
+    lblmessage.innerHTML="Access Denied!";
+  }
 //   a=10
 //   b=20
 //   c=a+b
 // alert(c)
-// alert("Hello")
+// alert("Hello") 
 
 
 // const user={
@@ -15,11 +25,11 @@ function dispMessage(){
 // console.log(user.name);
 
 
-const arr=["Maths","Science"];
-console.log(arr);
-console.log(arr[0])
-arr.push("English")
-console.log(arr)
+// const arr=["Maths","Science"];
+// console.log(arr);
+// console.log(arr[0])
+// arr.push("English")
+// console.log(arr)
 
 //alert(document.getElementById("txtEmail").value)
 // lblmessage.innerHTML=document.getElementById("txtEmail").value
@@ -35,10 +45,8 @@ console.log(arr)
 // else{
 //     lblmessage.innerHTML="ACCESS DENIED!!"
 // }
-//let can be overrided
-//const cannot be overrided but can be modified
 } 
-let users=[];
+
 function addUser(){
  let name=document.getElementById("txtUser").value
  let email=document.getElementById("txtEmail").value
@@ -60,7 +68,7 @@ function showLoginForm(){
    <hr>
    <p><button class="create-btn" onclick="showRegisterForm()">Create Account</button></p>`
 
-  root.innerHTML=str
+  root.innerHTML=str;
 }
 function showRegisterForm(){
   let str=`
